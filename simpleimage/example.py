@@ -1,6 +1,6 @@
 from Image import Image 
 
-img = Image('gymer_park.jpg')
+img = Image('3e8.png')
 
 print(img.getWidth(), img.getHeight())
 

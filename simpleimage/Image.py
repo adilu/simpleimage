@@ -28,6 +28,11 @@ class Image:
 		data = mpimg.imread(src)
 		self.W = len(data[0])
 		self.H = len(data)
+		if len(data[0][0]) == 3:
+			data = self.__addAlphaChannel(data)
+		return data
+
+	def __addAlphaChannel(self, data):
 		rgba = numpy.insert(
 			data,
 			3, #position in the pixel value [ r, g, b, a <-index [3]  ]
