@@ -1,3 +1,3 @@
 # Inside of __init__.py
-from simpleimage.Image.py import Image
-from simpleimage.Pixel.py import Pixel
+from simpleimage.Image import Image
+from simpleimage.Pixel import Pixel
