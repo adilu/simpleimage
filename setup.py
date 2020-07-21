@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'simpleimage',
   packages = ['simpleimage'],
-  version = '0.1',
+  version = '1.0.0',
   license='MIT',
   description = 'Simple image API for educational purposes',
   author = '3e8',
