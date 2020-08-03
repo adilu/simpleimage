@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'simpleimage',
   packages = ['simpleimage'],
-  version = '1.0.7',
+  version = '1.0.8',
   license='MIT',
   description = 'Simple image API for educational purposes',
   author = '3e8',
   author_email = 'info@3e8.ch',
   url = 'https://github.com/adilu/simpleimage',
-  download_url = 'https://github.com/adilu/simpleimage/archive/v_1.0.7.tar.gz',
+  download_url = 'https://github.com/adilu/simpleimage/archive/v_1.0.8.tar.gz',
   keywords = ['Image', 'python', 'educational'],
   install_requires=[
           'numpy',
