@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import numpy
-from simpleimage import Pixel
+from Pixel import Pixel
 
 id = 0
 
@@ -19,10 +19,6 @@ class Image:
 
 	def getId(self):
 		return self.id    
-
-	def runCommandImmediate(self, command, value):
-		signal = False
-		show({'command': command, 'value': value, 'readysignal': signal})
 
 	def open(self, src):
 		data = mpimg.imread(src)
